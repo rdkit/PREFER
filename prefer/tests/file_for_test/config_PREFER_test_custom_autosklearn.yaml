@@ -1,0 +1,15 @@
+path_to_df: '../data_for_test/logDPublic.csv'
+experiment_name: 'logD'
+id_column_name:  'Molecule ChEMBL ID'
+smiles_column_name:  'Smiles'
+properties_column_name_list: 
+      - 'Standard Value' 
+problem_type: 'regression'
+splitting_strategy: 'random'
+model_instance: 
+      - 'resampling_strategy="cv"'
+      - 'per_run_time_limit=30'
+      - 'metric = "balanced_accuracy"'
+      - ' n_jobs = 3'
+      - 'ppppp = "uncorrect"' 
+

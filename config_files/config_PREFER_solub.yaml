@@ -1,0 +1,10 @@
+path_to_df: 'path_to_solubility.csv'
+experiment_name: 'solubility'
+id_column_name:  'SID'
+smiles_column_name:  'Smiles'
+properties_column_name_list: 
+      - 'PUBCHEM_ACTIVITY_OUTCOME'
+problem_type: 'classification'
+splitting_strategy: 'random'
+# temporal_info_column_name: 
+

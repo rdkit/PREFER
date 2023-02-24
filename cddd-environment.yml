@@ -1,0 +1,53 @@
+name: cddd-env-prefer
+channels:
+  - rdkit
+  - defaults
+  - plotly
+  - pytorch
+dependencies:
+  - pip<22
+  - python==3.7.7
+  - matplotlib
+  - numpy
+  - rdkit==2020.09.1.0
+  - scikit-learn==0.24.1
+  - seaborn
+  - tqdm
+  # For AML Hyperdrive
+  - plotly
+  - plotly-orca
+  - psutil
+  - openssl
+  - h5py==2.10.0
+  - tensorflow-gpu==1.13.1
+  - pytorch
+  - cpuonly
+  - pip:
+    - docopt
+    - dpu-utils>=0.2.13
+    - zmq
+    - pytest
+    - azureml-pipeline
+    # For AML hyperdrive
+    - azureml-widgets
+    - azure-keyvault-secrets
+    - ipywidgets
+    - pandas
+    - cairosvg
+    - fcd_torch
+    - pydantic
+    - pyyaml
+    - wrapt
+    - dirhash
+    - scandir
+    - semver
+    - py-repo-root==1.1.1
+    - keras==2.1.2
+    - fcd
+    - json2html
+    - ghostml
+    - auto-sklearn==0.14.7
+    - protobuf==3.20.1
+    - opencensus-ext-azure
+    - opencensus-ext-requests
+

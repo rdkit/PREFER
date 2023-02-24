@@ -1,0 +1,26 @@
+path_to_df: 'path_in_Azure_to_the_saved_df'
+experiment_name: 'LogD_public_random'
+id_column_name:  'Molecule ChEMBL ID'
+smiles_column_name:  'Smiles'
+properties_column_name_list: 
+      - 'Standard Value' # if more than one then it is a multitasking
+problem_type: 'regression' # Can be Regression or Classification
+splitting_strategy: 'random'
+representations:
+    'DESCRIPTORS2D' : '' 
+    'FINGERPRINTS': ''
+    'CDDD': 'path_in_azure_to_stored_CDDD_model'
+desirability_scores: # please leave this field as it is
+      score1:
+            - x : -1.0
+              y : 0.0
+            - x : 0.0
+              y : 0.2
+            - x : 1.0
+              y : 0.9
+            - x : 2.0
+              y : 1.0
+            - x : 3.0
+              y : 0.5
+            - x : 4.0
+              y : 0.0

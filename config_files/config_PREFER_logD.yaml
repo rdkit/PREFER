@@ -1,0 +1,8 @@
+path_to_df: 'path_to_CHEMBL25-chembl_activity-kmMh6jUABmv9Qdf9kIxKtg7qNt9dhyK1PXvuKt6OTGc=.csv'
+experiment_name: 'logD'
+id_column_name:  'Molecule ChEMBL ID'
+smiles_column_name:  'Smiles'
+properties_column_name_list: 
+      - 'Standard Value' 
+problem_type: 'regression'
+splitting_strategy: 'random'

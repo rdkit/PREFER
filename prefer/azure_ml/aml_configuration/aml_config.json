@@ -1,0 +1,13 @@
+{
+    "subscription_id": "",
+    "resource_group": "",
+    "workspace_name": "",
+    "compute_target_name": "",
+    "cpu_compute_target_name": "",
+    "datastore_name": "",
+    "trained_models_datastore_name": "",
+    "trained_property_models_datastore_name": "",
+    "trained_generative_models_datastore_name": "",
+    "result_store_name": "",
+    "keyvault_name": ""
+}

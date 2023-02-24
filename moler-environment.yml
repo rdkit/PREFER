@@ -1,0 +1,55 @@
+name: moler-env-prefer
+channels:
+  - rdkit
+  - defaults
+  - plotly
+  - pytorch
+  - conda-forge
+dependencies:
+  - pip<22
+  - python==3.7.7
+  - matplotlib
+  - numpy==1.21.5
+  - rdkit==2020.09.1.0
+  - scikit-learn==0.24.1
+  - seaborn
+  - tqdm
+  # For AML Hyperdrive
+  - plotly
+  - plotly-orca
+  - psutil
+  - openssl
+  - h5py==2.10.0
+  - tensorflow==2.9.1
+  - typing-extensions
+  - pytorch
+  - cpuonly
+  - pip:
+    - azure-identity==1.7.0
+    - docopt
+    - dpu-utils>=0.2.13
+    - zmq
+    - pytest
+    - coverage
+    - azureml-pipeline
+    - azure-keyvault-secrets
+    # For AML hyperdrive
+    - azureml-widgets
+    - ipywidgets
+    - pandas>=1.2.4
+    - cairosvg
+    - tf2-gnn>=2.12.0
+    - more-itertools
+    - fcd_torch
+    - pydantic
+    - pyyaml
+    - dirhash
+    - scandir
+    - semver
+    - py-repo-root==1.1.1
+    - json2html
+    - mysql-connector-python==8.0.17
+    - tokenizers==0.9.2
+    - transformers==3.4.0
+    - opencensus-ext-azure
+    - opencensus-ext-requests

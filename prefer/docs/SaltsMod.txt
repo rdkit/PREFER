@@ -1,0 +1,39 @@
+// Notes:
+//  1) don't include charges
+//  2) The search for salts is a substructure search where the substructure
+//     must match the entire fragment, so we don't need to be choosy about bond 
+//     types
+//  3) The matching is done in order, so if you put the more complex stuff at the
+//     bottom the "don't remove the last fragment" algorithm has a chance of
+//     of returning something sensible
+
+// start with simple inorganics:
+[Cl,Br,I,F]
+[Li,Na,K,Ca,Mg,Zn]
+[O,N]
+
+// "complex" inorganics
+[N](=O)(O)O
+[P](=O)(O)(O)O
+[P](F)(F)(F)(F)(F)F
+[S](=O)(=O)(O)O
+[CH3][S](=O)(=O)(O)
+c1cc([CH3])ccc1[S](=O)(=O)(O)	p-Toluene sulfonate
+F[B](F)F
+// organics
+[CH3]C(=O)O	  Acetic acid
+FC(F)(F)C(=O)O	  TFA
+OC(=O)C=CC(=O)O	  Fumarate/Maleate
+OC(=O)C(=O)O	  Oxalate
+OC(=O)C(O)C(O)C(=O)O	  Tartrate
+C1CCCCC1[NH]C1CCCCC1	  Dicylcohexylammonium
+
+// added for Patent Stuff
+OC(=O)C=CC(O)=O succinate
+OC(=O)CCC(O)=O
+CC(O)=O
+[In]
+[Cu]
+[Zn]
+[Y]
+C

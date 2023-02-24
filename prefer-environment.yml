@@ -1,0 +1,32 @@
+name: prefer-env
+channels:
+  - rdkit
+  - defaults
+  - plotly
+dependencies:
+  - pip<22
+  - python==3.7.7
+  - matplotlib
+  - numpy==1.19.2
+  - rdkit==2020.09.1.0
+  - scikit-learn==0.24.1
+  - seaborn
+  - plotly
+  - tensorflow-gpu==2.1.0
+  - typing-extensions
+  - pip:
+    - dpu-utils>=0.2.13
+    - ipywidgets
+    - pandas>=1.2.4
+    - sklearn
+    - more-itertools
+    - pyyaml
+    - py-repo-root>=1.1.1
+    - tf2-gnn~=2.12.0
+    - ghostml
+    - dirhash
+    - auto-sklearn ==0.14.7
+
+
+    # in prefer/model_based_representations/models/cddd --> git submodule add https://github.com/jrwnter/cddd.git
+    # also for moler: git submodule add https://github.com/microsoft/molecule-generation.git

@@ -1,0 +1,57 @@
+{
+
+    "prefer/azure_ml/model_registration_prefer.py": {
+        "project_root": [
+            "prefer/azure_ml/", 
+            "prefer/src/",
+            "prefer/utils/", 
+            "prefer/model_based_representations/"
+        ]
+    },
+    "prefer/scripts/get_representations.py": {
+        "project_root": [
+            "prefer/src/",
+            "prefer/docs/",
+            "prefer/utils/",
+            "prefer/molecule_representations/",
+            "prefer/model_based_representations/",
+            "prefer/model_based_representations/models/cddd/", 
+            "prefer/model_based_representations/models/molecule-generation/",
+            "prefer/azure_ml/",
+            "prefer/scripts/"
+        ]
+    },
+    "prefer/scripts/model_wrapper.py": {
+        "project_root": [
+            "prefer/src/",
+            "prefer/utils/",
+            "prefer/molecule_representations/",
+            "prefer/model_based_representations/",
+            "prefer/model_based_representations/models/cddd/", 
+            "prefer/model_based_representations/models/molecule-generation/",
+            "prefer/scripts/"
+        ]
+    },
+    "prefer/scripts/combine_results.py": {
+        "project_root": [
+            "prefer/src/",
+            "prefer/utils/",
+            "prefer/molecule_representations/",
+            "prefer/model_based_representations/",
+            "prefer/model_based_representations/models/cddd/", 
+            "prefer/model_based_representations/models/molecule-generation/",
+            "prefer/scripts/"
+        ]
+    },
+    "prefer/scripts/run_PREFER.py": {
+        "project_root": [
+            "prefer/src/",
+            "prefer/utils/",
+            "prefer/molecule_representations/",
+            "prefer/model_based_representations/",
+            "prefer/model_based_representations/models/cddd/", 
+            "prefer/model_based_representations/models/molecule-generation/",
+            "prefer/scripts/"
+        ]
+    }
+}

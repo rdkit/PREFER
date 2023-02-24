@@ -1,0 +1,13 @@
+model_based_representations:
+    'MOLER': 
+        'path_to_model': 'path_to/moler'
+        'conda_env': 'moler-env-prefer-light'
+        'submodule_path': 'path_to/PREFER/prefer/model_based_representations/models/molecule-generation/'
+    'CDDD': 
+        'path_to_model': 'path_to/cddd/default_model'
+        'conda_env': 'cddd-env-prefer-light'
+        'submodule_path': 'path_to/PREFER/prefer/model_based_representations/models/cddd/'
+    
+    
+#python path needed to connect together all the relevant folders for the project, in particular, all the submodules related to the models used for models based representations (e.g. cddd and moler submodules) and the main PREFER folder
+prefer_path: 'path_to/PREFER/'
