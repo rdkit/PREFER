@@ -1,0 +1,6 @@
+[submodule "prefer/model_based_representations/models/cddd"]
+	path = prefer/model_based_representations/models/cddd
+	url = https://github.com/jrwnter/cddd
+[submodule "prefer/model_based_representations/models/molecule-generation"]
+	path = prefer/model_based_representations/models/molecule-generation
+	url = https://github.com/microsoft/molecule-generation
