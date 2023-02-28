@@ -26,7 +26,6 @@ dependencies:
     - ghostml
     - dirhash
     - auto-sklearn ==0.14.7
+    - ipykernel
+    - nbformat
 
-
-    # in prefer/model_based_representations/models/cddd --> git submodule add https://github.com/jrwnter/cddd.git
-    # also for moler: git submodule add https://github.com/microsoft/molecule-generation.git
