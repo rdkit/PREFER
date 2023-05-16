@@ -1,7 +1,7 @@
-experiment_name: small_data_64
+experiment_name: small_data
 id_column_name: Assay_ID
-limit_def: 64
-path_to_df: path_to/FS-mol_data/fs-mol/csv_files/CHEMBL915809.csv
+limit_def: 0
+path_to_df: none
 problem_type: classification
 properties_column_name_list:
 - Property

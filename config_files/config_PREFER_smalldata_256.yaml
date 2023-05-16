@@ -1,9 +1,0 @@
-experiment_name: small_data_256
-id_column_name: Assay_ID
-limit_def: 256
-path_to_df: path_to/FS-mol_data/fs-mol/csv_files/CHEMBL3431930.csv
-problem_type: classification
-properties_column_name_list:
-- Property
-smiles_column_name: SMILES
-splitting_strategy: random
